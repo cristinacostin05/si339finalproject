@@ -1,42 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" type="text/css" href="css/html5reset.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css"> -->
-    <title>HOME HTMl</title>
-  </head>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+  <link rel="stylesheet" type="text/css" href="css/style1.css">
+  <title>Ways to Destress!</title>
+</head>
+
 <body>
 
-    <div class="skip"><a href="#main">Skip to Main Content</a></div>
-    <header>
-        <nav>
-            <ul>
-              <li><a href="home.html">About The Author</a></li>
-              <li><a href="mountainsUS.html">Moutains in the US</a></li>
-              <li> <a href="mountainsEurope.html">Moutains in Europe</a> </li>
-            </ul>
-          </nav>
-      </header>
+  <header>
+    <div><a tabindex="0" class="skip" href="#main">Skip to Main Content</a></div>
+    <nav>
+      <ul class = "nav_links">
+        <li tabindex="0" ><a class= "active" href="home.html">Home</a></li>
+        <li tabindex="0"><a href="duringSchoolYear.html">Destressing during the School Year</a></li>
+        <li tabindex="0"><a href="duringSummer.html"> Destressing during the Summer</a></li>
+      </ul>
+    </nav>
+  </header>
 
-      <main class="container" id = "main">
-        <div class = overview>
-          <h1>Skiing</h1>
-          <p> Hello! My name is Cristina Costin! I grew up skiing and love to do it and have always wanted to try skiing at new mountains! </p>
+  
 
-        </div>
+  <main  id="main">
+  <h1> Ways to Destress! </h1>
+  <div class="container">
+    <div class="introtohome">
+      
+      <p> It is very important to learn ways that help you relieve stress! I am going to be talking about different ways I
+        do this, and how it differs from when I am at school versues over the summer! </p>
+    </div>
+    <div class="cartoonflowerpic">
+      <img src="images/cartoonflowerpic3.jpeg" alt="Cartoon Flower" id = "flower">
+    </div>
 
 
-<img src="images/skis.jpeg" alt="Several Skis Next to each other">
-<p> This is me and my friend skiing together! </p>
-<img src="images/IMG_2085.jpeg" alt="Me and my friend skiing in New York">
 
 
-</main>
-<footer>
-  <p>University of Michigan School of Information <br/>
-    &copy; Cristina Costin SI 339</p>
-</footer>
+ 
+  </div>
+  <div style = "display:flex; justify-content: center;">
+  <button id="button" type="button" style = "padding:15px; ">Click this when you are ready to type in ways you destress!</button>
+</div>
+  <script>
+      var clicked = false
+      document.getElementById('button').addEventListener("click", function() {
+        clicked = true;
+        if(clicked == true){
+          let nm = prompt("How do you like to destress?");
+          alert("Thank you for sharing!")
+          
+        }
+      });
+
+  </script>
+
+  </main>
+
+  <footer>
+    <p>University of Michigan School of Information <br />
+      &copy; Cristina Costin SI 339</p>
+  </footer>
 </body>
+
 </html>
