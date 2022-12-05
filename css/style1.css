@@ -55,6 +55,7 @@ header,footer{
 /* should be for small. currently is what i want my big one to look like */
 
 nav{
+    margin-top:25px;
     font-family:'Arial Narrow Bold', sans-serif;
     /* width:70%; */
     margin:auto;
@@ -201,8 +202,10 @@ h2{
         height:400px;
         
     }
+    
     /* change navigation */
     nav{
+        margin-top:25px;
         border: none;
         background-color: none;
         
@@ -271,8 +274,9 @@ h2{
 
 
     nav{
+        margin-top:25px;
         font-family:'Arial Narrow Bold', sans-serif;
-        margin:auto;
+        /* margin:auto; */
         justify-items: center;
         border: solid 2px green;
         border-radius: 30px;
