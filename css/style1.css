@@ -21,7 +21,6 @@ figcaption{
 }
 .active{
     border: solid #FFE134; 
-    /* padding: 5; */
 }
 
 .skip{ 
@@ -43,21 +42,10 @@ header,footer{
     visibility: hidden;
 }
 
-/* h1{ 
-    text-align: center;
-    font-size: 50px; 
-    font-family:'Arial Narrow Bold', sans-serif;
-    padding-top: 20px;
-    padding-bottom: 50px;
-    color: #FFAE42;
-} */
-
-/* should be for small. currently is what i want my big one to look like */
-
 nav{
     margin-top:25px;
     font-family:'Arial Narrow Bold', sans-serif;
-    /* width:70%; */
+
     margin:auto;
     justify-items: center;
     border: none;
@@ -67,14 +55,11 @@ nav{
 }
 .nav_links{
     display: flex;
-    /* text-align: center; */
+
     flex-direction: column;
 
    
 }
-/* .nav_links a {
-    background-color: pink;
-} */
 
 
 main{
@@ -116,7 +101,6 @@ main{
 
 
 
-
 h1{
     font-family:'Arial Narrow Bold', sans-serif;
     padding-top: 10px;
@@ -138,7 +122,7 @@ h2{
 }
 
 
-.picsatSchool{
+.picsatschool{
     display:grid; 
     
     grid-template-columns: 1fr 1fr;
@@ -147,7 +131,7 @@ h2{
     justify-items:center; 
 }
 
-.picsatSchool img{
+.picsatschool img{
 
     width:230px;
     height:230px;
@@ -156,7 +140,7 @@ h2{
 
 
 
-.picsSummer{
+.picssummer{
     display:flex;
     flex-wrap:wrap;
     align-content:center;
@@ -166,7 +150,7 @@ h2{
 }
 
 
-.picsSummer img {
+.picssummer img {
     width: 400px;
     height: 500px;
     margin:20px;
@@ -224,11 +208,11 @@ h2{
     }
 
 
-    .picsatSchool{
+    .picsatschool{
         grid-template-columns: 1fr 1fr 1fr; 
     }
 
-    .picsatSchool img{
+    .picsatschool img{
         width: 250px;
         height: 250px;
         overflow: auto;
@@ -269,9 +253,9 @@ h2{
         grid-row: 1/1;
         width:420px;
         height:400px;
+        display: block;
         
     }
-
 
     nav{
         margin-top:25px;
@@ -292,11 +276,11 @@ h2{
        
     }
 
-    .picsatSchool{
+    .picsatschool{
         grid-template-columns: 1fr 1fr 1fr 1fr; 
     }
 
-    .picsatSchool img{
+    .picsatschool img{
         height: 235px;
         width: 235px;
         overflow: auto;
@@ -311,7 +295,7 @@ h2{
         visibility:visible;
     }
 
-    .picsSummer img, .picsatSchool img{
+    .picssummer img, .picsatschool img{
         border: dotted green 8px;
 
     }
