@@ -108,6 +108,9 @@ h1{
     font-size: 30px;
     padding: 0;
     color: #5e3d12;
+    
+    
+
     text-align: center;
     font-size: 25px;
     padding-bottom: 10px;
@@ -136,8 +139,8 @@ h2{
     width:230px;
     height:230px;
     border: dotted green 2px;
+    
 }
-
 
 
 .picssummer{
@@ -157,6 +160,7 @@ h2{
     border: dotted green 2px;
 
 }
+
 
 
 /*  media query for tablet */
@@ -260,7 +264,6 @@ h2{
     nav{
         margin-top:25px;
         font-family:'Arial Narrow Bold', sans-serif;
-        /* margin:auto; */
         justify-items: center;
         border: solid 2px green;
         border-radius: 30px;
@@ -280,12 +283,16 @@ h2{
         grid-template-columns: 1fr 1fr 1fr 1fr; 
     }
 
+    
+    
     .picsatschool img{
         height: 235px;
         width: 235px;
         overflow: auto;
 
     }
+
+    
 
     .nav_links a{
         background-color: #FFAE42;
@@ -302,6 +309,11 @@ h2{
     figcaption{
         visibility: visible;
     }
+    h1{ 
+        background: linear-gradient(90deg, #C16512 0%,  rgb(249, 249, 249) 25%,  rgb(249, 249, 249) 75%, #C16512 100%);
+    }
+
+
 
 }
 
